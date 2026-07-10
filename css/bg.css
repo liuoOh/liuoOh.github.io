@@ -1,12 +1,6 @@
-/* 视频背景 — 填充在 #web_bg 内部 */
+/* 背景图铺满 + 固定 */
 #web_bg {
-    overflow: hidden;
-}
-#web_bg video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
 }
