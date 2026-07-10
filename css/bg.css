@@ -14,3 +14,18 @@
 .avatar-img img {
     opacity: 1 !important;
 }
+
+/* 去掉头像卡片装饰框 */
+#aside-content .card-widget.card-info {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.card-info-avatar .author-status-box {
+    display: none !important;
+}
+.card-info-avatar {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+}
