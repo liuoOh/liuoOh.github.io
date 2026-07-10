@@ -1,0 +1,6 @@
+/* 背景动图铺满全屏 */
+body {
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
