@@ -1,4 +1,4 @@
-/* 视频背景层 */
+/* 视频背景 - 放到最底层 */
 #bg-video {
     position: fixed;
     top: 0;
@@ -6,6 +6,11 @@
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    z-index: -999;
+    z-index: -1;
     pointer-events: none;
+}
+
+/* 让主题背景层透明，露出视频 */
+#web_bg {
+    background: none !important;
 }
