@@ -1,16 +1,12 @@
-/* 视频背景 - 放到最底层 */
-#bg-video {
-    position: fixed;
+/* 视频背景 — 填充在 #web_bg 内部 */
+#web_bg {
+    overflow: hidden;
+}
+#web_bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
-    pointer-events: none;
-}
-
-/* 让主题背景层透明，露出视频 */
-#web_bg {
-    background: none !important;
 }
