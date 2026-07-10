@@ -29,3 +29,12 @@
     box-shadow: none !important;
     border: none !important;
 }
+
+/* 正文白底 + 卡片白底 */
+#article-container,
+.recent-post-item,
+.card-widget:not(.card-info) {
+    background: rgba(255,255,255,0.92) !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+}
