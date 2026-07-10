@@ -1,6 +1,11 @@
-/* 背景动图铺满全屏 */
-body {
-    background-size: cover !important;
-    background-attachment: fixed !important;
-    background-position: center !important;
+/* 视频背景层 */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -999;
+    pointer-events: none;
 }
