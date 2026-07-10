@@ -4,3 +4,13 @@
     background-position: center !important;
     background-attachment: fixed !important;
 }
+
+/* 隐藏底部猜你想看 + 推荐友链 */
+.hide-footer-widget {
+    display: none !important;
+}
+
+/* 头像强制加载(跳过lazyload占位) */
+.avatar-img img {
+    opacity: 1 !important;
+}
